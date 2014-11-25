@@ -17,9 +17,7 @@ Rate.ExchangeChart = (function(){
   	var chart_data = new Rate.ExchangeChart.Data(code, name)
     , response = chart_data.request();
 
-  	response.done(function(settings){
-  		this.render(settings);
-  	}.bind(this));
+  	response.done(this.render.bind(this));
     
   };
 
