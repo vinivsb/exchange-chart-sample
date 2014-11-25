@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block page_header %}
+	<h1>Cotação de moedas<small> últimos sete dias.</small></h1>
+{% endblock%}
+
+{% block content %}
+	<div class="jumbotron" id="highchart">
+		<div class="loading loading-animate"></div>
+		<div class="placeholder"></div>
+	</div>
+	<div class="btn-group btn-group-justified currencies" role="group">
+		<div class="btn-group" role="group">
+			<button type="button" class="btn active btn-default" data-code="USD">Dólar</button>
+		</div>
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-default" data-code="EUR">Euro</button>
+		</div>
+		<div class="btn-group" role="group">
+			<button type="button" class="btn btn-default" data-code="ARS">Pesos Argentinos</button>
+		</div>
+	</div>
+{% endblock %}
