@@ -12,4 +12,4 @@ class MethodTests(TestCase):
     def test_get_quotation_on_get(self):
     	response = self.client.get(reverse('get_quotation_code', kwargs={'code': 'USD'}))
         self.assertEquals(200, response.status_code)
-        #self.assertTemplateUsed(response['Content-Type'], 'application/json')
+        self.assertTemplateUsed(response['Content-Type'], 'application/json')
