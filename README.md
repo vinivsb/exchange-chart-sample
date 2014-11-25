@@ -1,7 +1,7 @@
 exchange-chart-sample
 =====================
 
-This a simple project demonstration, which was builded with Django Framework.
+This is a simple project demonstration, which was builded with Django Framework.
 
 The project contains:
 - Pyhton / Django Framework
