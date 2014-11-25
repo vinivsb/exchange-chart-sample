@@ -54,7 +54,7 @@ docs/_build/
 target/
 
 .DS_Store
-portal/static/node_modules
+rateconverter/static/node_modules
 venv
 *.pyc
 staticfiles
