@@ -55,4 +55,6 @@ target/
 
 .DS_Store
 portal/static/node_modules
-
+venv
+*.pyc
+staticfiles

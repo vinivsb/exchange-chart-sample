@@ -36,7 +36,7 @@ module.exports = function(grunt) {
   // Watch for updates.
   config.set('watch.js', {
       files: ['js/**/*.js']
-    , tasks: ['concat']
+    , tasks: ['uglify']
   });
 
   // Register the default task.
