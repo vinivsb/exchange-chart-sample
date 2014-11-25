@@ -9,3 +9,5 @@ The project contains:
 - Bootstrap
 - Javascript/Jquery organized by modules
 - Highcharts.js
+
+See a live demo: https://exchange-chart-sample.herokuapp.com/
